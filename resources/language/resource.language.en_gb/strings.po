@@ -1,0 +1,87 @@
+# Kodi Media Center language file
+# Addon Name: ExpressVPN for Kodi
+# Addon id: script.expressvpn
+# Addon Provider: Gavin Ward
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"POT-Creation-Date: 2017-05-13 12:00+BSTE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Settings labels
+
+# Group
+msgctxt "#32001"
+msgid "ExpressVPN"
+msgstr ""
+
+# Category
+msgctxt "#32002"
+msgid "Servers"
+msgstr ""
+
+# Label
+msgctxt "#32003"
+msgid "Default"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Additional (use shortnames, comma separated)"
+msgstr ""
+
+# Dialogs
+
+msgctxt "#32101"
+msgid "Already connected."
+msgstr ""
+
+msgctxt "#32102"
+msgid "You are already connected to %s."
+msgstr ""
+
+msgctxt "#32103"
+msgid "Disconnect?"
+msgstr ""
+
+msgctxt "#32104"
+msgid "Stay connected"
+msgstr ""
+
+msgctxt "#32105"
+msgid "Disconnect"
+msgstr ""
+
+msgctxt "#32106"
+msgid "Disconnected."
+msgstr ""
+
+msgctxt "#32107"
+msgid "Unable to disconnect."
+msgstr ""
+
+msgctxt "#32108"
+msgid "Connecting..."
+msgstr ""
+
+msgctxt "#32109"
+msgid "Connected to '%s'."
+msgstr ""
+
+msgctxt "#32110"
+msgid "Unable to connect."
+msgstr ""
+
+msgctxt "#21111"
+msgid "Already disconnected."
+msgstr ""
+
+msgctxt "#32112"
+msgid "Disconnecting..."
+msgstr ""

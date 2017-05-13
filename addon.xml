@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.expressvpn" name="ExpressVPN" version="1.0.0" provider-name="Gavin Ward">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>linux</platform>
+		<summary lang="en">Control ExpressVPN from Kodi</summary>
+		<description lang="en">Script to allow you to control ExpressVPN from Kodi.</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<website></website>
+		<email></email>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<news>Initial release.</news>
+	</extension>
+</addon>
