@@ -32,8 +32,8 @@ There are two ways to use ExpressVPN for Kodi:
 
 - **Directly via the API (using a Kodi remote such as Yatse or a Kodi addon that will execute commands such as Commands)**
 
-  1. To launch, execute: RunAddon(script.expressvpn)
-  2. If you want to pass in a parameter, execute: RunScript(script.expressvpn,parameter) 
+  1. To launch, execute: RunScript(script.expressvpn)
+  2. If you want to pass in a parameter ot two, execute: RunScript(script.expressvpn,parameter,parameter2) i.e. RunScript(script.expressvpn,connect,usny)
 
   **Command-line options:**
 
@@ -49,9 +49,9 @@ There are two ways to use ExpressVPN for Kodi:
 Settings
 --------
 
-Default Server: The server it will connect to unless you supply a parameter or have additional servers listed. By default this is will "smart", which is the closest server to you, geographically.
+Default Server: The server it will connect to unless you supply a parameter or have additional servers listed. By default it uses "smart", which is the closest server to you, geographically.
 
-Additional servers: List the additional servers you would like to be prompted to connect to, separated by columns. As some of the full server names use commas, use the short name/alias (i.e. usny)
+Additional servers: List the additional servers you would like to be prompted to connect to, separated by commas. As some of the full server names use commas, use the short name/alias (i.e. usny,usch,usmi)
 
 License
 ------
@@ -59,4 +59,4 @@ ExpressVPN for Kodi is licensed under the [GPL 3.0 license](http://www.gnu.org/l
 
 Acknowledgements
 ------
-Thank you to [Brian Hornsby](http://www.brianhornsby) whose addon [OpenVPN for Kodi](http://brianhornsby.com/kodi_addons/openvpn) was not only great to use (Until I switched to ExpressVPN and couldn't get OpenVPN to connect to it) but also provided a great reference to build this addon off of.
+Thank you to [Brian Hornsby](http://www.brianhornsby.com) whose addon [OpenVPN for Kodi](http://brianhornsby.com/kodi_addons/openvpn) was not only great to use (Until I switched to ExpressVPN and couldn't get OpenVPN to connect to it) but also provided a great reference to build this addon off of.
