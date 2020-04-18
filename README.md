@@ -33,7 +33,7 @@ There are two ways to use ExpressVPN for Kodi:
 - **Directly via the API (using a Kodi remote such as Yatse or a Kodi addon that will execute commands such as Commands)**
 
   1. To launch, execute: RunScript(script.expressvpn)
-  2. If you want to pass in a parameter ot two, execute: RunScript(script.expressvpn,parameter,parameter2) i.e. RunScript(script.expressvpn,connect,usny)
+  2. If you want to pass in a parameter or two, execute: RunScript(script.expressvpn,parameter,parameter2) i.e. RunScript(script.expressvpn,connect,usny)
 
   **Command-line options:**
 
