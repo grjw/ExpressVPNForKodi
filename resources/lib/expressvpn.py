@@ -31,7 +31,11 @@ class ExpressVPN:
 		return subprocess.check_output(["expressvpn", "status"])
 
 	def isConnected(self):
-		return subprocess.check_output(["expressvpn", "status"]).startswith("Connected to ")
+		connected = False
+		ret = re.search("Connected\ to\ (.+)", self.status())
+		if ret is not None :
+				connected = True
+		return connected
 
 	def currentServer(self):
 		return re.search("Connected\ to\ (.+)", self.status()).group(1) 
